@@ -1,0 +1,33 @@
+sudo apt-get install -y \
+    python-pip \
+    build-essential \
+    git \
+    python \
+    python-dev \
+    ffmpeg \
+    libsdl2-dev \
+    libsdl2-image-dev \
+    libsdl2-mixer-dev \
+    libsdl2-ttf-dev \
+    libportmidi-dev \
+    libswscale-dev \
+    libavformat-dev \
+    libavcodec-dev \
+    zlib1g-dev
+
+sudo apt-get install -y \
+    libgstreamer1.0 \
+    gstreamer1.0-plugins-base \
+    gstreamer1.0-plugins-good
+
+sudo pip install http://download.pytorch.org/whl/cpu/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
+
+sudo pip install --upgrade pip
+
+sudo apt-get install python-kivy
+
+sudo pip install matplotlib
+
+sudo apt-get install python-tk
+
+sudo apt-get install spyder
